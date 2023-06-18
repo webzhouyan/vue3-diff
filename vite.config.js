@@ -6,11 +6,11 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
   build : {
+    cssCodeSplit: true,
     lib: {
       entry: resolve(__dirname, 'src/index.js'),
       name: 'vue3-diff',
       fileName: 'index',
-      formats: ['es', 'cjs', 'umd'],
     },
     rollupOptions: {
       /**

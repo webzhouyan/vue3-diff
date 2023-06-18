@@ -8,6 +8,7 @@
 import { createPatch } from "diff";
 import * as Diff2Html from "diff2html";
 import "diff2html/bundles/css/diff2html.min.css";
+
 export default {
   name: "CodeDiff",
   props: {
@@ -147,6 +148,7 @@ export default {
 </script>
 
 <style>
+@import url("diff2html/bundles/css/diff2html.min.css");
 .d2h-wrapper {
   position: relative;
 }
