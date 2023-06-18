@@ -1,3 +1,3 @@
-import VueDiff from "./components/VueDiff.vue";
+import CodeDiff from "./components/CodeDiff.vue";
 
-export default VueDiff;
+export default CodeDiff;
