@@ -1,6 +1,6 @@
 {
   "name": "vue3-diff",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "description": "vue3-diff，一个简单的vue3文本比对组件",
   "author": "zhouyan",
