@@ -2,6 +2,22 @@
   "name": "vue3-diff",
   "version": "0.0.1",
   "type": "module",
+  "description": "vue3-diff，一个简单的vue3文本比对组件",
+  "author": "zhouyan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webzhouyan/vue3-diff"
+  },
+  "keywords": [
+    "vue3-diff",
+    "diff2html",
+    "vue",
+    "vue3",
+    "component",
+    "ui",
+    "diff"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -16,8 +32,6 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "unpkg": "./dist/index.umd.js",
-  "jsdelivr": "./dist/index.umd.js",
-  "types": "./dist/types/index.d.ts",
   "files": [
     "dist"
   ],
