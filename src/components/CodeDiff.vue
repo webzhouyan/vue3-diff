@@ -38,10 +38,6 @@ export default {
       type: String,
       default: "",
     },
-    isShowNoChange: {
-      type: Boolean,
-      default: false,
-    },
   },
   computed: {
     html() {
